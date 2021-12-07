@@ -11,7 +11,7 @@ prolog = '''
 #********************************************************************************************************
 # 												WARNING
 #
-#		   no more than aprox. 150 days! on my pc 80  days -> 0.2 seconds of runtime,
+#		   no more than aprox. 150 days - on my pc 80 days -> 0.2 seconds of runtime,
 #												  150 days -> 10 seconds of runtime,
 #												  200 days -> still waiting (finally 778.4s)
 #
