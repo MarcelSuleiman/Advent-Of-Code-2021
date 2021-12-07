@@ -1,3 +1,5 @@
+# link to task: https://adventofcode.com/2021/day/6
+
 # BRUTE FORCE SOLUTION
 # working "fine" only for low day cycle ~ 80-90 days, no more AND only with small data. 
 
@@ -9,15 +11,15 @@ fishesDays = [3,4,3,1,2] # small "testing" input
 
 prolog = '''
 #********************************************************************************************************
-# 												WARNING
+# 							WARNING
 #
 #		   no more than aprox. 150 days - on my pc 80 days -> 0.2 seconds of runtime,
-#												  150 days -> 10 seconds of runtime,
-#												  200 days -> still waiting (finally 778.4s)
+#							   150 days -> 10 seconds of runtime,
+#							   200 days -> still waiting (finally 778.4s)
 #
-# 									metered on small "testing" input
-#					don't try it on big final input with more than 80 days (2 seconds runtime)
-#								or :) do it, if you have cold in your room :D
+# 					metered on small "testing" input
+#		don't try it on big final input with more than 80 days (2 seconds runtime)
+#				or :) do it, if you have cold in your room :D
 #
 #********************************************************************************************************
 '''
