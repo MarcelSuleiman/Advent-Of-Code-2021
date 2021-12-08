@@ -40,13 +40,3 @@ epsilonDecimal = int(epsilon, 2) #int(binary, 2) means: convert to integer - fro
 #print(epsilonDecimal)
 
 print(f'Power consumption of the submarine is: {gammaDecimal*epsilonDecimal}')
-
-
-
-
-
-	
-
-
-
-
