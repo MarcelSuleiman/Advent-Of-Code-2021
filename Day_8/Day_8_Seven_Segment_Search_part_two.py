@@ -19,7 +19,6 @@ b       b            c  b    c  b    c
 
 '''
 
-
 inputFile = open('input.txt', 'r')
 
 '''
@@ -44,8 +43,7 @@ for line in lines:
 	valueList = []
 
 	for key in inputKey:
-
-
+		# Description
 		# only 1 digit use 2 segments -> number one. Any string with length 2 is 1
 		# only 1 digit use 3 segments -> number seven. Any string with length 3 is 7
 		# only 1 digit use 4 segments -> number four. Any string with length 4 is 4
@@ -80,12 +78,11 @@ for line in lines:
 			valueList.append(key)
 
 		if oneStringDigit != '' and sevenStringDigit != '' and fourStringDigit != '' and eightStringDigit != '':
-				break
+			break
 
 		index += 1
 
 	# from now, we dont need them in keyList
-
 	for element in valueList:
 		inputKey.remove(element)
 
@@ -150,13 +147,13 @@ for line in lines:
 
 	# hmm, finally we have 2 string coresponding to numbers: 2 and 5
 	# who is who?
-
+	#
 	# if we know number 1 has 2 chars (like AB/BA)
 	#			 number 6 do not include one of 2 chars from digit 1 (like A or B)
 	#
 	# number 5 must have length 5 chars without one char of oneChars
 	# but which one?
-
+	#
 	# if we look at number six (char format) we must find, which par of "one" is inside of "six"
 	# that char representing "bottom part" of "one".
 	# if we want identify no 5,  
@@ -186,7 +183,7 @@ for line in lines:
 	# second part
 	# we must decrypt 4 numbers by our keys 
 
-	# ''.join(sorted(string))
+	# ''.join(sorted(string)) make 'bac' -> 'abc'
 
 	finalStringNumber = ''
 
